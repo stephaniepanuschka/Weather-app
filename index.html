@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/index.js" />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+  </head>
+  
+  <body>
+  <form id="search-form">
+    <input type="text" id="city-input" placeholder="Enter a city.." />
+    <input type="submit" value="Search" />
+  </form>
+
+  <h1 id="city-name">Düsseldorf</h1> 
+
+  <p id="date-time">Friday 17:02, sunny</p> 
+
+  <p>
+    Humidity: <strong id="humidity">58%</strong>,
+    Wind: <strong id="wind">7 km/h</strong> 
+  </p>
+
+  <p id="weather-info">
+    <span id="icon">☀️</span> <span id="temperature">90°C</span>
+  </p> 
+
+  <ul>
+    <li>Sat ⛈ <br />94°F | 34°C</li>
+    <li>Sun ⛈ <br />83°F | 28°C</li>
+    <li>Mon 🌦 <br />87°F | 31°C</li>
+    <li>Tue 🌨 <br />85°F | 29°C</li>
+    <li>Wed 🌤 <br />88°F | 31°C</li>
+  </ul>
+
+  <p>
+    This project was coded by
+    <a
+      href="https://www.shecodes.io/graduates/123272-stephanie-panuschka"
+      target="_blank"
+      >Stephanie Panuschka</a
+    >
+    on <a href="#">GitHub</a> and is hosted by <a href="#">Netlify</a>
+  </p>
+
+  <script src="src/index.js"></script>
+</body>
+
+
